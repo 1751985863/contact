@@ -14,17 +14,13 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                ", qq='" + qq + '\'' +
-                ", email='" + email + '\'' +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return  id +
+                ", " + name  +
+                ", " + gender +
+                ", " + age +
+                ", " + address  +
+                ", " + qq  +
+                ", " + email  + '\n';
     }
 
     public int getId() {
