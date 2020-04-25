@@ -20,7 +20,7 @@ public class User {
                 ", " + age +
                 ", " + address  +
                 ", " + qq  +
-                ", " + email  + '\n';
+                ", " + email  + "\r\n";
     }
 
     public int getId() {

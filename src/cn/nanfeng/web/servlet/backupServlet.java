@@ -27,7 +27,7 @@ public class backupServlet extends HttpServlet {
         UserServiceImpl userService=new UserServiceImpl();
         List<User> all = userService.findAll();
         StringBuilder stringBuilder=new StringBuilder();
-        stringBuilder.append("联系人备份\n"+admin.getUsername()+"于"+admin.getLasttime()+"提交备份"+"\nID--姓名--性别--年龄--地址--QQ--邮箱\n");
+        stringBuilder.append("联系人备份\r\n"+admin.getUsername()+"于"+admin.getLasttime()+"提交备份"+"\r\nID--姓名--性别--年龄--地址--QQ--邮箱\n");
         for (User user : all) {
             stringBuilder.append(user.toString());
         }
